@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Login</title>
 @extends('templates/links')
-@extends('templates/scripts')
+
 </head>
 <style>   
  body {
@@ -31,7 +31,6 @@
   height: 2rem;
 }
 </style>
-
 <body>
 <div class="espacio"></div>
 
@@ -70,6 +69,7 @@
           </div>
         </div>
       </div>
+      @extends('templates/scripts')
 </body>
 
 </html>
