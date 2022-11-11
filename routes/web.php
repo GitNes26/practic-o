@@ -13,12 +13,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('prueba');
 });
-Route::get('/categoriassss', function () {
-    return view('Admin.Categorias.index');
-});
-
 
 Route::prefix('admin')->group(function () {
     // Matches The "/admin/tipe"
