@@ -18,7 +18,9 @@ Route::get('/', function () {
 
 Route::prefix('admin')->group(function () {
     // Matches The "/admin/tipe"
-
+    Route::get('/', function () {
+        return view('Admin.Admin');
+    });   
     Route::get('/bonos', function () {
         return view('Admin.Bonos.index');
     });    
