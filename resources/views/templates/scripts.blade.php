@@ -11,7 +11,7 @@
 
   <!--AdminLTE-3-->
   {{-- <script src="{{asset('js/adminlte.min.js')}}"></script> --}}
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/js/adminlte.min.js" integrity="sha512-KBeR1NhClUySj9xBB0+KRqYLPkM6VvXiiWaSz/8LCQNdRpUm38SWUrj0ccNDNSkwCD9qPA4KobLliG26yPppJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/3.2.0/js/adminlte.min.js" integrity="sha512-KBeR1NhClUySj9xBB0+KRqYLPkM6VvXiiWaSz/8LCQNdRpUm38SWUrj0ccNDNSkwCD9qPA4KobLliG26yPppJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
 
   <!-- DataTables -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
@@ -40,7 +40,7 @@
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
 
   <!--MisScripts-->
-  <script src="{{asset('js/master.js')}}"></script>
+  {{-- <script src="{{asset('js/master.js')}}"></script> --}}
 
 
   <!---------------------------- OPCIONES EXTRAS ---------------------------->
