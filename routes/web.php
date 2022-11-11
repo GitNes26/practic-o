@@ -16,7 +16,10 @@ use App\Http\Controllers\UsuariosController;
 Route::post('/login', [UsuariosController::class, 'login'])->name('login');
 
 Route::get('/', function () {
-    return view('prueba');
+    return view('auth.login');
+});
+Route::get('/client', function () {
+    return view('client.card');
 });
 Route::get('/login', function () {
 return view('auth.login');
@@ -24,12 +27,7 @@ return view('auth.login');
 Route::get('/register', function () {
  return view('auth.register');
 })->name("register");
-Route::get('/menu', function () {
-    return view('menus.menu');
-   })->name("menu");
-   Route::get('/modal', function () {
-    return view('modal.info');
-   })->name("modal");
+
 
 
 
