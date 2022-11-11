@@ -14,21 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('auth.login');
 });
 
-Route::get('/home', function () {
-    return view('home');
-});
 Route::get('/login', function () {
 return view('auth.login');
 })->name("login");
 Route::get('/register', function () {
  return view('auth.register');
 })->name("register");
-Route::get('/menu', function () {
-    return view('menus.menu');
-   })->name("menu");
-   Route::get('/modal', function () {
-    return view('modal.info');
-   })->name("modal");
+
+Route::get('/home', function () {
+    return view('home');
+})->name("home");

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Login</title>
 @extends('templates/links')
-@extends('templates/scripts')
+
 </head>
 <style>   
  body {
@@ -31,7 +31,6 @@
   height: 2rem;
 }
 </style>
-
 <body>
 <div class="espacio"></div>
 
@@ -49,11 +48,11 @@
               <div class="card-body p-4 p-sm-5">
                 <h5 class="card-title text-center mb-5 fw-light fs-5">Inicio de sesion</h5>
                 
-                    @csrf
-                  <div class="form-floating mb-3">
-                    <input type="text" required class="form-control" id="floatingInput" name="numero" placeholder="No.Empleado">
-                    <label for="floatingInput">Usuario</label>
-                  </div>
+                 
+                    <div class="form-floating mb-3">
+                      <input type="text" required class="form-control" id="floatingPassword" name="password" placeholder="Contraseña">
+                      <label for="floatingPassword">usuario</label>
+                    </div>
                   <div class="form-floating mb-3">
                     <input type="password" required class="form-control" id="floatingPassword" name="password" placeholder="Contraseña">
                     <label for="floatingPassword">Contraseña</label>
@@ -70,6 +69,7 @@
           </div>
         </div>
       </div>
+      @extends('templates/scripts')
 </body>
 
 </html>
