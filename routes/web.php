@@ -25,3 +25,6 @@ Route::get('/register', function () {
 Route::get('/menu', function () {
     return view('menus.menu');
    })->name("menu");
+   Route::get('/perfil', function () {
+    return view('perfilestu');
+   })->name("perfilestu");
