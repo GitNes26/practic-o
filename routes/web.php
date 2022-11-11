@@ -27,3 +27,9 @@ Route::get('/register', function () {
 Route::get('/home', function () {
     return view('home');
 })->name("home");
+Route::get('/menu', function () {
+    return view('menus.menu');
+})->name("menu");
+Route::get('/perfil', function () {
+    return view('perfilestu');
+   })->name("perfilestu");
