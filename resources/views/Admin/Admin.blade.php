@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Admin Usuarios</title>
+    <title>Admin Categorias</title>
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
     @extends('/Admin/templates/links')
     @extends('/Admin/templates/navbar')
@@ -42,12 +42,10 @@
     <!-- Main content -->
     <section class="content">
       <div class="card card-outline card-dark shadow">
-    {{-- @include('Modulos.nav') --}}
 
-    <div class="container">
-      @yield('content')
-       <!-- /.card -->
-      </div>
+
+
+        
 
     </section>
     <!-- /.content -->

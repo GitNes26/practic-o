@@ -1,4 +1,4 @@
-@extends('Admin.Quejas.layout')
+@extends('Admin.Usuarios.layout')
   
 @section('content')
 <div class="row">
@@ -63,10 +63,9 @@
 
             <div class="form-group">
                 <strong>Capacidades/Conocimientos:</strong>
-                <input type="text" name="apellido" class="form-control" placeholder="Capacidades/Conocimientos">
-            </div>
+ 
 
-            <div class="card col-xs-12 col-sm-12 col-md-12 text-center">
+            <div class="card text-center">
 
                 <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
 
@@ -95,7 +94,7 @@
               
                 <input type="checkbox" class="btn-check" id="btncheck8" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btncheck8">Arquitecto</label>
-              
+              <br>
                 <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btncheck9">Contable</label>
 
@@ -120,7 +119,7 @@
                 <input type="checkbox" class="btn-check" id="btncheck16" autocomplete="off">
                 <label class="btn btn-outline-primary" for="btncheck16">Minero</label>
             </div>
-
+        </div>
 
             </div>
 
