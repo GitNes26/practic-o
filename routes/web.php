@@ -25,3 +25,6 @@ Route::get('/register', function () {
 Route::get('/menu', function () {
     return view('menus.menu');
    })->name("menu");
+   Route::get('/modal', function () {
+    return view('modal.info');
+   })->name("modal");
