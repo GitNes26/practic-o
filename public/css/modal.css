@@ -60,12 +60,12 @@
 
 .modales__footer {
   text-align: right;
-  a{
+}
+.modales__footera{
     color: #585858;
-  }
-  i {
+}
+.modales__footer i {
     color: #d02d2c;
-  }
 }
 .modales__close {
   position: absolute;

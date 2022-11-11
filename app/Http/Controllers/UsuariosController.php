@@ -12,7 +12,7 @@ class UsuariosController extends Controller
         if($user == "admin" && $password == "admin"){
             return redirect()->route("admin_bonos");
         } else if($user == "user" && $password == "user"){
-            
+            return redirect()->route("perfilestu");
         }
         else if($user == "cliente" && $password == "cliente"){
             return redirect()->route("home");

@@ -3,9 +3,9 @@
 <head>
     <title>Admin Bonos</title>
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
-    @extends('/Admin/templates/links')
-    @extends('/Admin/templates/navbar')
-    @extends('/Admin/templates/sidebar')
+    @extends('Admin/templates/links')
+    @extends('Admin/templates/navbar')
+    @extends('Admin/templates/sidebar')
 
 </head>
 
@@ -66,9 +66,9 @@
 </div>
 
 <!-- JavaScript Bundle with Popper -->
-@extends('/Admin/templates/scripts')
+@extends('Admin/templates/scripts')
 
-<script>
+{{-- <script>
    const ConfiguracionDataTable = {
      responsive: true,
      language: {
@@ -90,6 +90,6 @@
      aaSorting: [], //deshabilitar ordenado automatico
    };
    tabla = $('tabla').DataTable(ConfiguracionDataTable);
-   </sript>
+   </script> --}}
 </body>
 </html>
