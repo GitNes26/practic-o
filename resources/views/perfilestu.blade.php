@@ -127,6 +127,7 @@
                         </li>
                         
                     </ul>
+                    <a href="/"class="btn btn-danger float-end">Cerrar sesión</a>
                 </div>
             </div>
     </nav>

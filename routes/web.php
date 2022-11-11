@@ -18,6 +18,9 @@ Route::post('/login', [UsuariosController::class, 'login'])->name('login');
 Route::get('/', function () {
     return view('auth.login');
 });
+Route::get('/cliente', function () {
+    return view('client.card');
+});
 
 Route::get('/login', function () {
 return view('auth.login');

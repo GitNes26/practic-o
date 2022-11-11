@@ -1,5 +1,5 @@
-@extends('templates/links')
-@extends('templates/scripts')
+{{-- @extends('templates/links')
+@extends('templates/scripts') --}}
 <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid">
   <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">

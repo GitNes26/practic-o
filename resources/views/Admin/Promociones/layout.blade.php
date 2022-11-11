@@ -68,7 +68,7 @@
 <!-- JavaScript Bundle with Popper -->
 @extends('/Admin/templates/scripts')
 
-<script>
+{{-- <script>
    const ConfiguracionDataTable = {
      responsive: true,
      language: {
@@ -90,6 +90,6 @@
      aaSorting: [], //deshabilitar ordenado automatico
    };
    tabla = $('tabla').DataTable(ConfiguracionDataTable);
-   </sript>
+   </script> --}}
 </body>
 </html>
