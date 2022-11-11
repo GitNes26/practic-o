@@ -1,4 +1,4 @@
-@import url('tarjetonesPromo.css');
+/* @import url('tarjetonesPromo.css'); */
 
 /*font-family: 'Poppins', sans-serif;*/
 *{
@@ -82,7 +82,13 @@ body {
 .input-icon {
    position: relative;
 }
-.input-icon i.icono_ojito {
+.input-icon i.icon-left {
+   position: absolute;
+   top: 50%;
+   left: 30px;
+   transform: translateY(-50%);
+}
+.input-icon i.icon-right {
    position: absolute;
    top: 50%;
    right: 30px;
