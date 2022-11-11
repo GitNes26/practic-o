@@ -192,233 +192,233 @@
    
 </body>
 <div class="container">
-<nav class="navbar navbar-expand-md navbar-light">
+     <nav class="navbar navbar-expand-md navbar-light">
 
-</nav>
+    </nav>
 
-<!-- Seccion Hero -->
-<section class="hero align-items-stretch">
-    <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
-        <img class="hero-imagen-desarrollador rounded-circle" src="{{asset('imagenesf/usricon.png')}}" alt="Foto de perfil" width="100px" height="100px">
-        <h1>Isarely Gómez</h1>
-        <h2>Estudiante de Desarrollo de Software</h2>
-    </div>
-    <div class="hero-inferior">
-        <center><img class="hero-inferior-imagen img-fluid" src="{{asset('imagenesf/webtools.png')}}" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid" src="imagenesf/atom.png" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid"
-                src="{{asset('imagenesf/as.png')}}" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid" src="{{asset('imagenesf/ps.png')}}" alt="" width="80px" height="80px"></center>
-    </div>
-</section>
-
-<!-- Sobre mi -->
-<section id="sobre-mi" class="sobre-mi seccion-oscura">
-    <div class="contenedor">
-        <h2 class="seccion-titulo">Mi información</h2>
-        <p class="seccion-texto"> Amplios conocimientos en desarrollo web como: Uso de lenguajes HTML, CSS, PHP, JS. Uso de herramientas de diseño: Atom y Adobe Photoshop. Diseño y programación en Android Studio.</p>
-    </div>
-</section>
-
-<!-- Experiencia -->
-<section class="experiencia seccion-clara">
-    <div class="container text-center">
-        <div class="row">
-            <!-- Desarrollo Web --
-            <!-- Articulos -->
-    <!-- Galeria de Proyectos -->
-    <div class="container text-center proyectos-contenedor">
-        <div class="row">
-            <!-- Proyecto 1 -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
-                    <div class="overlay">
-                        <p>Proyecto 1</p>
-                        <br>
-                        <b><p>Juego Número Secreto</p></b>
-                        <div class="iconos-contenedor">
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-laptop"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Proyecto 2 -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
-                    <div class="overlay">
-                        <p>Proyecto 2</p>
-                        <br>
-                        <b><p>Sistema de calificaciones</p></b>
-                        <div class="iconos-contenedor">
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-laptop"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Proyecto 3 -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
-                    <div class="overlay">
-                        <p>Proyecto 3</p>
-                        <br>
-                        <b><p>Reto 100 días de código</p></b>
-                        <div class="iconos-contenedor">
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-laptop"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Proyecto 4 -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
-                    <div class="overlay">
-                        <p>Proyecto 4</p>
-                        <br>
-                        <b><p>Revista Somos</p></b>
-                        <div class="iconos-contenedor">
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-laptop"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Proyecto 5 -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
-                    <div class="overlay">
-                        <p>Proyecto 5</p>
-                        <br>
-                        <b><p>Hi-Low Coffee Store</p></b>
-                        <div class="iconos-contenedor">
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-laptop"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Proyecto 6 -->
-            <div class="col-12 col-md-6 col-lg-4">
-                <div class="proyecto">
-                    <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
-                    <div class="overlay">
-                        <p>Proyecto 6</p>
-                        <br>
-                        <b><p>Pastelería Oliver's</p></b>
-                        <div class="iconos-contenedor">
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-github"></i>
-                            </a>
-                            <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-                                <i class="bi bi-laptop"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="{{asset('imagenesf/usricon.png')}}" alt="Foto de perfil" width="100px" height="100px">
+            <h1>Isarely Gómez</h1>
+            <h2>Estudiante de Desarrollo de Software</h2>
         </div>
-    </div>
-    <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-        <button type="button" class="btn btn-info">
-      Ver más proyectos
-      <i class="bi bi-arrow-right-circle-fill"></i>
-    </button>
-    </a>
-</section>
-<br>
-<br>
-<br>
-<!-- Testimonios -->
-<section id="testimonios" class="testimonios seccion-clara">
-    <h2 class="seccion-titulo">Referencias</h2>
-    <h3 class="seccion-descripcion">Calificaciones de los clientes sobre Isarely</h3>
-    <br>
-    <!-- Carrusel -->
-    <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="container">
-                    <center><img class="testimonio-imagen rounded-circle" src="{{asset('imagenesf/cliente.png')}}" alt="" width="150px" height="150px">
-                    </center>
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="testimonio-info">
-                        <b><p class="cliente">Marcos</p>
-                            <p class="cargo">Gerente de OS.DEV</p></b>
-
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <center><img class="testimonio-imagen rounded-circle" src="{{asset('imagenesf/cliente.png')}}" alt="" width="150px" height="150px">
-                    </center>
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="testimonio-info">
-                        <b>
-                            <p class="cliente">Naidelyn</p>
-                            <p class="cargo">Diseñadora gráfica</p></b>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <center><img class="testimonio-imagen rounded-circle" src="{{asset('imagenesf/cliente.png')}}" alt="" width="150px" height="150px">
-                    </center>
-                    <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
-                    <div class="testimonio-info">
-                        <b>
-                            <p class="cliente">Ernesto</p>
-                            <p class="cargo">Dueño de SoporteYM</p></b>
-                    </div>
-                </div>
-            </div>
+        <div class="hero-inferior">
+            <center><img class="hero-inferior-imagen img-fluid" src="{{asset('imagenesf/webtools.png')}}" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid" src="imagenesf/atom.png" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid"
+                    src="{{asset('imagenesf/as.png')}}" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid" src="{{asset('imagenesf/ps.png')}}" alt="" width="80px" height="80px"></center>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Anterior</span>
-    </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Siguiente</span>
-    </button>
-    </div>
-</section>
+    </section>
 
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Mi información</h2>
+            <p class="seccion-texto"> Amplios conocimientos en desarrollo web como: Uso de lenguajes HTML, CSS, PHP, JS. Uso de herramientas de diseño: Atom y Adobe Photoshop. Diseño y programación en Android Studio.</p>
+        </div>
+    </section>
 
-<!-- Pie de pagina (footer) -->
-<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
-    <img class="footer-logo" src="{{asset('imagenesf/logo.png')}}" alt="Logo del portafolio" width="200px" height="150px">
-    <div class="derechos-de-autor ">
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center" >
+            <div class="row">
+                <!-- Desarrollo Web --
+                <!-- Articulos -->
+        <!-- Galeria de Proyectos -->
         <center>
-            Practic-O. <br> LogOuts Developers(2022) &#169; </center>
-    </div>
-</footer>
+        <div class="container text-center proyectos-contenedor">
+            <div class="row justify-content-center">
+                <!-- Proyecto 1 -->
+                <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
+                        <div class="overlay">
+                            <p>Proyecto 1</p>
+                            <br>
+                            <b><p>Juego Número Secreto</p></b>
+                            <div class="iconos-contenedor">
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
+                        <div class="overlay">
+                            <p>Proyecto 2</p>
+                            <br>
+                            <b><p>Sistema de calificaciones</p></b>
+                            <div class="iconos-contenedor">
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
+                        <div class="overlay">
+                            <p>Proyecto 3</p>
+                            <br>
+                            <b><p>Reto 100 días de código</p></b>
+                            <div class="iconos-contenedor">
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
+                        <div class="overlay">
+                            <p>Proyecto 4</p>
+                            <br>
+                            <b><p>Revista Somos</p></b>
+                            <div class="iconos-contenedor">
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 5 -->
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
+                        <div class="overlay">
+                            <p>Proyecto 5</p>
+                            <br>
+                            <b><p>Hi-Low Coffee Store</p></b>
+                            <div class="iconos-contenedor">
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 6 -->
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
+                        <div class="overlay">
+                            <p>Proyecto 6</p>
+                            <br>
+                            <b><p>Pastelería Oliver's</p></b>
+                            <div class="iconos-contenedor">
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </center>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3 " crossorigin="anonymous "></script>
+        <br>
+        
+
+    </section>
+    <br>
+    <br>
+    <br>
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Referencias</h2>
+        <h3 class="seccion-descripcion">Calificaciones de los clientes sobre Isarely</h3>
+        <br>
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <center><img class="testimonio-imagen rounded-circle" src="{{asset('imagenesf/cliente.png')}}" alt="" width="150px" height="150px">
+                        </center>
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                        <div class="testimonio-info">
+                            <b><p class="cliente">Marcos</p>
+                                <p class="cargo">Gerente de OS.DEV</p></b>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <center><img class="testimonio-imagen rounded-circle" src="{{asset('imagenesf/cliente.png')}}" alt="" width="150px" height="150px">
+                        </center>
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                        <div class="testimonio-info">
+                            <b>
+                                <p class="cliente">Naidelyn</p>
+                                <p class="cargo">Diseñadora gráfica</p></b>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <center><img class="testimonio-imagen rounded-circle" src="{{asset('imagenesf/cliente.png')}}" alt="" width="150px" height="150px">
+                        </center>
+                        <p class="testimonio-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel iaculis urna. Fusce a ornare enim, vel interdum turpis. Sed aliquam interdum nisi a placerat.</p>
+                        <div class="testimonio-info">
+                            <b>
+                                <p class="cliente">Ernesto</p>
+                                <p class="cargo">Dueño de SoporteYM</p></b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+        </div>
+    </section>
+
+
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="{{asset('imagenesf/logo.png')}}" alt="Logo del portafolio" width="200px" height="150px">
+        <div class="derechos-de-autor ">
+            <center>
+                Practic-O. <br> LogOuts Developers(2022) &#169; </center>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3 " crossorigin="anonymous "></script>
 </div>
 
 </html>
