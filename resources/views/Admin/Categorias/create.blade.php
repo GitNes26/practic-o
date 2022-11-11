@@ -1,4 +1,4 @@
-@extends('Categorias.layout')
+@extends('Admin.Categorias.layout')
   
 @section('content')
 <div class="row">
@@ -7,7 +7,7 @@
             <h2>Registrar nueva Categoria</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('Categorias.index') }}">Regresar</a>
+            <a class="btn btn-primary" href="/admin/categorias">Regresar</a>
         </div>
     </div>
 </div>
@@ -22,7 +22,9 @@
         </ul>
     </div>
 @endif
-<form action="{{ route('Categorias.store') }}" method="POST">
+<form>
+
+{{-- <form action="{{ route('Categorias.store') }}" method="POST"> --}}
     @csrf
   
      <div class="row">

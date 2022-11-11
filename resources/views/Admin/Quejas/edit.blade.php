@@ -1,4 +1,4 @@
-@extends('Amin.Quejas.layout')
+@extends('Admin.Quejas.layout')
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
@@ -6,7 +6,7 @@
                 <h2>Editar titulo de la Queja</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary">Regresar</a>
+                <a class="btn btn-primary" href="/admin/quejas">Regresar</a>
                 {{-- <a class="btn btn-primary" href="{{ route('Quejas.index') }}">Regresar</a> --}}
             </div>
         </div>

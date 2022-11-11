@@ -1,4 +1,4 @@
-@extends('Amin.Categorias.layout')
+@extends('Admin.Categorias.layout')
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
@@ -6,7 +6,7 @@
                 <h2>Editar nombre de la Categoria</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary">Regresar</a>
+                <a class="btn btn-primary" href="/admin/categorias">Regresar</a>
                 {{-- <a class="btn btn-primary" href="{{ route('Categorias.index') }}">Regresar</a> --}}
             </div>
         </div>
@@ -25,7 +25,7 @@
    --}}
 
    {{-- <form action="{{ route('Categorias.update',$Categoria->id) }}" method="POST"> --}}
-    <form action="#" method="POST">
+    <form>
         @csrf
         @method('PUT')
          <div class="row">

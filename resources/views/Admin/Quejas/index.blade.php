@@ -7,7 +7,8 @@
                 <h2>Admin Quejas</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success"> Registra una Queja</a>
+                <a class="btn btn-info" href="/admin/create/quejas">Registra una Queja</a>
+
                 {{-- <a class="btn btn-success" href="{{ route('Quejas.create') }}"> Registra una Queja</a> --}}
             </div>
         </div>
@@ -31,23 +32,18 @@
         <tr>
             {{-- <th>{{$Queja->id}}</th>
             <td>{{ $Queja->nombre }}</td> --}}
-            <th>id</th>
-            <td>Titulo</td>
-            <td>Descripcion</td>
+            <th>1</th>
+            <td>Mal servicio pero...</td>
+            <td>El otro dia un joven termino su trabajo, pero le falto X cosa...</td>
 
             <td>
                 <form action="" method="POST">
                     {{-- <form action="{{ route('Quejas.destroy',$Queja->id) }}" method="POST"> --}}
                     {{-- <a class="btn btn-info" href="{{ route('Quejas.show',$Queja->id) }}">Mostrar</a> --}}
                     {{-- <a class="btn btn-primary" href="{{ route('Quejas.edit',$Queja->id) }}">Editar</a> --}}
-   
-                    <a class="btn btn-info" href="">Mostrar</a>
-                    <a class="btn btn-primary" href="">Editar</a>
-   
-
+                    <a class="btn btn-info" href="/admin/edit/quejas">Editar</a>
                     @csrf
                     @method('DELETE')
-      
                     <button type="submit" class="btn btn-danger">Eliminar</button>
                 </form>
             </td>

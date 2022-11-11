@@ -1,4 +1,4 @@
-@extends('Amin.Promociones.layout')
+@extends('Admin.Promociones.layout')
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
@@ -6,7 +6,7 @@
                 <h2>Editar nombre de la Promocion</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary">Regresar</a>
+                <a class="btn btn-primary" href="/admin/promociones">Regresar</a>
                 {{-- <a class="btn btn-primary" href="{{ route('Promociones.index') }}">Regresar</a> --}}
             </div>
         </div>

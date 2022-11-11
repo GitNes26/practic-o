@@ -1,4 +1,4 @@
-@extends('Bonos.layout')
+@extends('Admin.Bonos.layout')
   
 @section('content')
 <div class="row">
@@ -7,7 +7,7 @@
             <h2>Registrar nuevo Bono</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('Bonos.index') }}">Regresar</a>
+            <a class="btn btn-primary" href="/admin/bonos">Regresar</a>
         </div>
     </div>
 </div>
@@ -22,7 +22,9 @@
         </ul>
     </div>
 @endif
-<form action="{{ route('Bonos.store') }}" method="POST">
+<form>
+    {{-- <form action="{{ route('Admin.Bonos.store') }}" method="POST"> --}}
+
     @csrf
   
      <div class="row">

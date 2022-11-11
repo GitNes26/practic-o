@@ -4,10 +4,10 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Admin Categorias</h2>
+                <h2>Admin Categorias/Conocimientos</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success"> Registra una Categoria</a>
+                <a class="btn btn-success" href="/admin/create/categorias"> Registra una Categoria</a>
                 {{-- <a class="btn btn-success" href="{{ route('Categorias.create') }}"> Registra una Categoria</a> --}}
             </div>
         </div>
@@ -27,28 +27,84 @@
         </tr>
 
         {{-- @foreach ($Categorias as $Categoria) --}}
+
         <tr>
             {{-- <th>{{$Categoria->id}}</th>
             <td>{{ $Categoria->nombre }}</td> --}}
-            <th>id</th>
-            <td>nombre</td>
+            <th>1</th>
+            <td>Conocimiento en Electronica</td>
             <td>
                 <form action="" method="POST">
                     {{-- <form action="{{ route('Categorias.destroy',$Categoria->id) }}" method="POST"> --}}
                     {{-- <a class="btn btn-info" href="{{ route('Categorias.show',$Categoria->id) }}">Mostrar</a> --}}
                     {{-- <a class="btn btn-primary" href="{{ route('Categorias.edit',$Categoria->id) }}">Editar</a> --}}
-   
-                    <a class="btn btn-info" href="">Mostrar</a>
-                    <a class="btn btn-primary" href="">Editar</a>
-   
-
+                    <a class="btn btn-info" href="/admin/edit/categorias">Editar</a>
                     @csrf
                     @method('DELETE')
-      
                     <button type="submit" class="btn btn-danger">Eliminar</button>
                 </form>
             </td>
         </tr>
+        <tr>
+            {{-- <th>{{$Categoria->id}}</th>
+            <td>{{ $Categoria->nombre }}</td> --}}
+            <th>2</th>
+            <td>Conocimiento en Sistemas</td>
+            <td>
+                <form action="" method="POST">
+                    {{-- <form action="{{ route('Categorias.destroy',$Categoria->id) }}" method="POST"> --}}
+                    {{-- <a class="btn btn-info" href="{{ route('Categorias.show',$Categoria->id) }}">Mostrar</a> --}}
+                    {{-- <a class="btn btn-primary" href="{{ route('Categorias.edit',$Categoria->id) }}">Editar</a> --}}
+                    <a class="btn btn-info" href="/admin/edit/categorias">Editar</a>
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            {{-- <th>{{$Categoria->id}}</th>
+            <td>{{ $Categoria->nombre }}</td> --}}
+            <th>3</th>
+            <td>Conocimiento en Electricidad</td>
+            <td>
+                <form action="" method="POST">
+                    {{-- <form action="{{ route('Categorias.destroy',$Categoria->id) }}" method="POST"> --}}
+                    {{-- <a class="btn btn-info" href="{{ route('Categorias.show',$Categoria->id) }}">Mostrar</a> --}}
+                    {{-- <a class="btn btn-primary" href="{{ route('Categorias.edit',$Categoria->id) }}">Editar</a> --}}
+                    <a class="btn btn-info" href="/admin/edit/categorias">Editar</a>
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            {{-- <th>{{$Categoria->id}}</th>
+            <td>{{ $Categoria->nombre }}</td> --}}
+            <th>4</th>
+            <td>Conocimiento en Redes</td>
+            <td>
+                <form action="" method="POST">
+                    {{-- <form action="{{ route('Categorias.destroy',$Categoria->id) }}" method="POST"> --}}
+                    {{-- <a class="btn btn-info" href="{{ route('Categorias.show',$Categoria->id) }}">Mostrar</a> --}}
+                    {{-- <a class="btn btn-primary" href="{{ route('Categorias.edit',$Categoria->id) }}">Editar</a> --}}
+                    <a class="btn btn-info" href="/admin/edit/categorias">Editar</a>
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class="btn btn-danger">Eliminar</button>
+                </form>
+            </td>
+        </tr>
+
+
+
+
+
+
+
         {{-- @endforeach --}}
     
     

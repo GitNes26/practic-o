@@ -1,4 +1,4 @@
-@extends('Quejas.layout')
+@extends('Admin.Quejas.layout')
   
 @section('content')
 <div class="row">
@@ -7,7 +7,7 @@
             <h2>Registrar nueva Queja</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('Quejas.index') }}">Regresar</a>
+            <a class="btn btn-primary" href="/admin/quejas">Regresar</a>
         </div>
     </div>
 </div>
@@ -22,7 +22,9 @@
         </ul>
     </div>
 @endif
-<form action="{{ route('Quejas.store') }}" method="POST">
+<form>
+
+{{-- <form action="{{ route('Quejas.store') }}" method="POST"> --}}
     @csrf
   
      <div class="row">

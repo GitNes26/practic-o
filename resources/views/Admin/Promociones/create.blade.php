@@ -1,4 +1,4 @@
-@extends('Promociones.layout')
+@extends('Admin.Promociones.layout')
   
 @section('content')
 <div class="row">
@@ -7,7 +7,7 @@
             <h2>Registrar nueva Promocion</h2>
         </div>
         <div class="pull-right">
-            <a class="btn btn-primary" href="{{ route('Promociones.index') }}">Regresar</a>
+            <a class="btn btn-primary" href="/admin/promociones">Regresar</a>
         </div>
     </div>
 </div>
@@ -22,7 +22,9 @@
         </ul>
     </div>
 @endif
-<form action="{{ route('Promociones.store') }}" method="POST">
+<form>
+
+{{-- <form action="{{ route('Promociones.store') }}" method="POST"> --}}
     @csrf
   
      <div class="row">
@@ -33,7 +35,7 @@
             </div>
             <div class="form-group">
                 <strong>Descripcion de la Promocion:</strong>
-                <input type="text" name="nombre" class="form-control" placeholder="nombre">
+                <input type="text" name="descricpion" class="form-control" placeholder="Descripcion">
             </div>
 
         </div>

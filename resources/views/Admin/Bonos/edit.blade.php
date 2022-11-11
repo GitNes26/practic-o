@@ -1,4 +1,5 @@
-@extends('Amin.Bonos.layout')
+@extends('Admin.Bonos.layout')
+
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
@@ -6,8 +7,7 @@
                 <h2>Editar Nombre/Tipo del Bono</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-primary">Regresar</a>
-                {{-- <a class="btn btn-primary" href="{{ route('Bonos.index') }}">Regresar</a> --}}
+                <a class="btn btn-primary" href="/admin/bonos">Regresar</a>
             </div>
         </div>
     </div>
