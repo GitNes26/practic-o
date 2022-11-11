@@ -26,23 +26,43 @@ Pellentesque in lorem tempor, cursus nisi id, aliquam risus. Praesent malesuada 
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-      <i class="fa-light fa-list-check"></i>&nbsp; Proyectos 
+      <i class="fa-light fa-list-check"></i>&nbsp; Portafolio 
       </button>
     </h2>
     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at velit sapien. Duis et orci id felis gravida porttitor vitae sit amet eros. Curabitur id elit rutrum, rhoncus metus nec, pellentesque magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque ultricies purus nec dui efficitur, eu fermentum lacus rhoncus. Proin sodales pharetra purus, nec iaculis lectus sagittis sit amet. Quisque ullamcorper sodales est, mattis lacinia tellus faucibus a. Phasellus arcu enim, aliquam sed feugiat sit amet, dignissim at velit. Quisque elementum orci massa, eget accumsan massa fringilla dignissim. Proin ante nisl, laoreet nec vulputate non, ultricies id tellus. Mauris dapibus dolor sed iaculis blandit. Integer quis dapibus mauris, vel porta magna.
+      <div class="row">
+        <div class="col-3">
+        
+        <img  width="150" src="{{ asset('GitHub.jpg') }}">
+       <br>
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </div>
+        <div class="col-3">
+        <img  width="150" src="{{ asset('GitHub.jpg') }}">
+        <br>
 
-Duis vestibulum euismod imperdiet. Suspendisse potenti. Pellentesque pretium massa vel justo posuere, a interdum elit placerat. Donec sit amet turpis ornare, molestie urna sit amet, cursus quam. Aenean hendrerit, ipsum euismod pharetra gravida, felis eros ullamcorper metus, suscipit tristique augue lacus nec purus. Mauris finibus ex at arcu semper congue. Vivamus leo magna, viverra dignissim quam vitae, vestibulum aliquam nulla.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s   
+        </div>
+        <div class="col-3">
+        <img  width="150" src="{{ asset('GitHub.jpg') }}">
+        <br>
 
-Etiam egestas ipsum ac fermentum faucibus. Donec aliquet, diam vel vulputate hendrerit, lacus metus laoreet ligula, nec lobortis nibh mi in tellus. In sed nunc maximus, semper justo nec, semper nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eget purus neque. Aenean imperdiet pretium diam et consequat. Ut vehicula justo eu nunc placerat, eget imperdiet ligula vestibulum. Vestibulum lacinia ultrices urna quis egestas. Curabitur maximus tortor nec pellentesque scelerisque. Pellentesque mattis scelerisque tincidunt. Suspendisse potenti. Phasellus nunc sapien, interdum et fermentum non, gravida quis urna. Fusce bibendum mauris sed euismod blandit. Aenean nunc diam, pellentesque sed cursus eget, consequat vel nibh. Morbi fermentum elit quis sapien efficitur, ac suscipit diam pulvinar. Proin et erat et mi auctor accumsan a vitae dui.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s    
+       </div>
 
-Maecenas efficitur lorem quis ipsum rhoncus placerat. Sed vestibulum est nisl, nec varius massa porta at. Nam velit diam, aliquam nec magna vulputate, placerat efficitur elit. Suspendisse faucibus lectus eu fringilla tincidunt. Proin sagittis auctor nibh, id aliquet odio accumsan vel. Pellentesque efficitur tellus ac nulla bibendum malesuada. Cras sed pulvinar dolor.
+        <div class="col-3">
+        <img  width="150" src="{{ asset('GitHub.jpg') }}">
+        <br>
 
-Nullam lobortis nisl massa, ac blandit eros ultrices sed. Sed facilisis pharetra nibh, sed vulputate odio maximus at. Maecenas fermentum placerat varius. Ut nulla mi, sagittis sit amet diam vitae, dignissim tincidunt odio. Etiam sagittis mi quis eros fermentum, vitae convallis mi tristique. Praesent pharetra tortor ac velit suscipit, egestas sollicitudin felis euismod. Vestibulum cursus magna quam, ut volutpat erat blandit eu. Cras aliquet euismod felis, et imperdiet metus facilisis vitae. Praesent vel dui augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque et semper odio. Sed blandit varius dui eu cursus. Nunc facilisis nulla mi, at ultrices justo egestas eu. Donec sollicitudin ut sem a mattis. Sed consequat scelerisque scelerisque.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+        </div>
+      </div>
+
       </div>
     </div>
   </div>
+  
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
