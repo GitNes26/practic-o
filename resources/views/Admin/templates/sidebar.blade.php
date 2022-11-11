@@ -2,7 +2,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/Admin" class="brand-link text-md" title="Return to Admin page">
-       <img src="" alt="Logo" class="brand-image" style="opacity: .8">
+       <img src="/logo.png" alt="Logo" class="brand-image" style="opacity: .8">
        <span class="ml-3 fw-bold">PRACTIC</span>
        <span class="brand-text fw-light">- <small>o</small></span>
     </a>
