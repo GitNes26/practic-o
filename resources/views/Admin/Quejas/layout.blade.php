@@ -3,9 +3,9 @@
 <head>
     <title>Admin Quejas</title>
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"> --}}
-    @extends('../../templates/links')
-    @extends('../../templates/navbar')
-    @extends('../../templates/sidebar')
+    @extends('/Admin/templates/links')
+    @extends('/Admin/templates/navbar')
+    @extends('/Admin/templates/sidebar')
 
 </head>
 
@@ -66,7 +66,7 @@
 </div>
 
 <!-- JavaScript Bundle with Popper -->
-@extends('../../templates/scripts')
+@extends('/Admin/templates/scripts')
 
 <script>
    const ConfiguracionDataTable = {

@@ -97,35 +97,28 @@
                 <label class="btn btn-outline-primary" for="btncheck8">Arquitecto</label>
               
                 <input type="checkbox" class="btn-check" id="btncheck9" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck9">Checkbox</label>
+                <label class="btn btn-outline-primary" for="btncheck9">Contable</label>
 
                 <input type="checkbox" class="btn-check" id="btncheck10" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck10">Checkbox</label>
+                <label class="btn btn-outline-primary" for="btncheck10">Psicologo</label>
               
                 <input type="checkbox" class="btn-check" id="btncheck11" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck11">Checkbox</label>
+                <label class="btn btn-outline-primary" for="btncheck11">Criminologo</label>
               
                 <input type="checkbox" class="btn-check" id="btncheck12" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck12">Checkbox</label>
+                <label class="btn btn-outline-primary" for="btncheck12">Atencion Social</label>
 
                 <input type="checkbox" class="btn-check" id="btncheck13" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck13">Checkbox</label>
+                <label class="btn btn-outline-primary" for="btncheck13">Publicista</label>
               
                 <input type="checkbox" class="btn-check" id="btncheck14" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck14">Checkbox</label>
+                <label class="btn btn-outline-primary" for="btncheck14">Ingenieria Civil</label>
               
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Checkbox</label>
+                <input type="checkbox" class="btn-check" id="btncheck15" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck15">Quimico</label>
 
-                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck1">Checkbox</label>
-              
-                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck2">Checkbox</label>
-              
-                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
-                <label class="btn btn-outline-primary" for="btncheck3">Checkbox</label>
-
+                <input type="checkbox" class="btn-check" id="btncheck16" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck16">Minero</label>
             </div>
 
 
