@@ -22,7 +22,8 @@
     <table class="table table-bordered">
         <tr>
             <th>#</th>
-            <th>Nombre</th>
+            <th>Titulo de la Queja</th>
+            <th>Descripcion</th>
             <th width="280px">Accion</th>
         </tr>
 
@@ -31,7 +32,9 @@
             {{-- <th>{{$Queja->id}}</th>
             <td>{{ $Queja->nombre }}</td> --}}
             <th>id</th>
-            <td>nombre</td>
+            <td>Titulo</td>
+            <td>Descripcion</td>
+
             <td>
                 <form action="" method="POST">
                     {{-- <form action="{{ route('Quejas.destroy',$Queja->id) }}" method="POST"> --}}

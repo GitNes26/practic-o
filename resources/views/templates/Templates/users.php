@@ -5,6 +5,7 @@ include "../Templates/side_bar.php";
 
 $pagina_acutal = "Users";
 ?>
+
 <!-- Content Wrapper. Contenido de la pagina -->
 <div class="content-wrapper text-sm">
    <!-- Content Header (Encabezado en el contenido de la pagina) -->

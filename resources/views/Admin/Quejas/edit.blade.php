@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Editar nombre de la Queja</h2>
+                <h2>Editar titulo de la Queja</h2>
             </div>
             <div class="pull-right">
                 <a class="btn btn-primary">Regresar</a>
@@ -31,11 +31,16 @@
          <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
-                    <strong>Nombre:</strong>
-                    <input type="text" name="nombre" class="form-control" placeholder="Nombre">
-                    {{-- <input type="text" name="nombre" value="{{ $Queja->nombre }}" class="form-control" placeholder="Nombre"> --}}
-
+                    <strong>Titulo:</strong>
+                    <input type="text" name="titulo" class="form-control" placeholder="Titulo">
+                    {{-- <input type="text" name="titulo" value="{{ $Queja->nombre }}" class="form-control" placeholder="Titulo"> --}}
                 </div>
+                <div class="form-group">
+                    <strong>Descripcion:</strong>
+                    <input type="text" name="descripcion" class="form-control" placeholder="Descripcion">
+                    {{-- <input type="text" name="descripcion" value="{{ $Queja->nombre }}" class="form-control" placeholder="Descripcion"> --}}
+                </div>
+
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
               <button type="submit" class="btn btn-primary">Editar Queja</button>

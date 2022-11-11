@@ -144,6 +144,8 @@ $bg_powerbi = "navbar-white navbar-light";
     <link href="<?php echo($DIST_PATH) ?>/Css/misEstilos.css" rel="stylesheet" />
     <link rel="stylesheet" href="<?php echo($DIST_PATH) ?>/Css/estilos_test.css">
 </head>
+
+
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed text-sm">
   <input type="hidden" id="url_base" value="<?php echo $URL_BASE ?>">
   <input type="hidden" id="reporte_id_default" value="<?php echo $reporte_id_default ?>">

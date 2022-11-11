@@ -33,13 +33,8 @@ Route::prefix('admin')->group(function () {
     Route::get('/quejas', function () {
         return view('Admin.Quejas.index');
     });
-    Route::get('/reportes', function () {
-        return view('Admin.Reportes.index');
-    });
     Route::get('/usuarios', function () {
         return view('Admin.Usuarios.index');
     });
 });
-
-
 

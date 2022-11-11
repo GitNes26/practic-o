@@ -28,9 +28,16 @@
      <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
-                <strong>Nombre de la Queja:</strong>
-                <input type="text" name="nombre" class="form-control" placeholder="nombre">
+                <strong>Titulo de la Queja:</strong>
+                <input type="text" name="titulo" class="form-control" placeholder="Titulo">
             </div>
+            <div class="form-group">
+                <strong>Descripcion de la Queja:</strong>
+                <input type="text" name="descripcion" class="form-control" placeholder="Descripcion">
+            </div>
+
+
+
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <button type="submit" class="btn btn-primary">Enviar</button>
