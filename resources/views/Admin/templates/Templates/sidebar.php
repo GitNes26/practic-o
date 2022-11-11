@@ -1,8 +1,8 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
    <!-- Brand Logo -->
-   <a href="<?php echo($URL_BASE) ?>/Admin" class="brand-link text-md" title="Return to Admin page">
-      <img src="<?php echo($ICONO) ?>" alt="Logo" class="brand-image" style="opacity: .8">
+   <a href="/Admin" class="brand-link text-md" title="Return to Admin page">
+      <img src="" alt="Logo" class="brand-image" style="opacity: .8">
       <span class="ml-3 fw-bold">dpn</span>
       <span class="brand-text fw-light">Stash <small>v2.0.0</small></span>
    </a>
