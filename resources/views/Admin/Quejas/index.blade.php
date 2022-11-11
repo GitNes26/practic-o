@@ -1,14 +1,14 @@
-@extends('Admin.Categorias.layout')
+@extends('Admin.Quejas.layout')
  
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Admin Categorias</h2>
+                <h2>Admin Quejas</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success"> Registra una Categoria</a>
-                {{-- <a class="btn btn-success" href="{{ route('Categorias.create') }}"> Registra una Categoria</a> --}}
+                <a class="btn btn-success"> Registra una Queja</a>
+                {{-- <a class="btn btn-success" href="{{ route('Quejas.create') }}"> Registra una Queja</a> --}}
             </div>
         </div>
     </div>
@@ -26,17 +26,17 @@
             <th width="280px">Accion</th>
         </tr>
 
-        {{-- @foreach ($Categorias as $Categoria) --}}
+        {{-- @foreach ($Quejas as $Queja) --}}
         <tr>
-            {{-- <th>{{$Categoria->id}}</th>
-            <td>{{ $Categoria->nombre }}</td> --}}
+            {{-- <th>{{$Queja->id}}</th>
+            <td>{{ $Queja->nombre }}</td> --}}
             <th>id</th>
             <td>nombre</td>
             <td>
                 <form action="" method="POST">
-                    {{-- <form action="{{ route('Categorias.destroy',$Categoria->id) }}" method="POST"> --}}
-                    {{-- <a class="btn btn-info" href="{{ route('Categorias.show',$Categoria->id) }}">Mostrar</a> --}}
-                    {{-- <a class="btn btn-primary" href="{{ route('Categorias.edit',$Categoria->id) }}">Editar</a> --}}
+                    {{-- <form action="{{ route('Quejas.destroy',$Queja->id) }}" method="POST"> --}}
+                    {{-- <a class="btn btn-info" href="{{ route('Quejas.show',$Queja->id) }}">Mostrar</a> --}}
+                    {{-- <a class="btn btn-primary" href="{{ route('Quejas.edit',$Queja->id) }}">Editar</a> --}}
    
                     <a class="btn btn-info" href="">Mostrar</a>
                     <a class="btn btn-primary" href="">Editar</a>
@@ -53,5 +53,5 @@
     
     
     </table>
-    {{-- {!! $Categorias->links() !!} --}}
+    {{-- {!! $Quejas->links() !!} --}}
 @endsection

@@ -1,14 +1,14 @@
-@extends('Admin.Categorias.layout')
+@extends('Admin.Promociones.layout')
  
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
             <div class="pull-left">
-                <h2>Admin Categorias</h2>
+                <h2>Admin Promociones</h2>
             </div>
             <div class="pull-right">
-                <a class="btn btn-success"> Registra una Categoria</a>
-                {{-- <a class="btn btn-success" href="{{ route('Categorias.create') }}"> Registra una Categoria</a> --}}
+                <a class="btn btn-success"> Registra una Promocion</a>
+                {{-- <a class="btn btn-success" href="{{ route('Promociones.create') }}"> Registra una Promocion</a> --}}
             </div>
         </div>
     </div>
@@ -23,21 +23,24 @@
         <tr>
             <th>#</th>
             <th>Nombre</th>
+            <th>Descripcion</th>
+
             <th width="280px">Accion</th>
         </tr>
 
-        {{-- @foreach ($Categorias as $Categoria) --}}
+        {{-- @foreach ($Promociones as $Promocion) --}}
         <tr>
-            {{-- <th>{{$Categoria->id}}</th>
-            <td>{{ $Categoria->nombre }}</td> --}}
+            {{-- <th>{{$Promocion->id}}</th>
+            <td>{{ $Promocion->nombre }}</td> --}}
             <th>id</th>
-            <td>nombre</td>
+            <td>Nombre de la promocion</td>
+            <td>Descripcion de la promocion</td>
             <td>
                 <form action="" method="POST">
-                    {{-- <form action="{{ route('Categorias.destroy',$Categoria->id) }}" method="POST"> --}}
-                    {{-- <a class="btn btn-info" href="{{ route('Categorias.show',$Categoria->id) }}">Mostrar</a> --}}
-                    {{-- <a class="btn btn-primary" href="{{ route('Categorias.edit',$Categoria->id) }}">Editar</a> --}}
-   
+                    {{-- <form action="{{ route('Promociones.destroy',$Promocion->id) }}" method="POST"> --}}
+                    {{-- <a class="btn btn-info" href="{{ route('Promociones.show',$Promocion->id) }}">Mostrar</a> --}}
+                    {{-- <a class="btn btn-primary" href="{{ route('Promociones.edit',$Promocion->id) }}">Editar</a> --}}
+
                     <a class="btn btn-info" href="">Mostrar</a>
                     <a class="btn btn-primary" href="">Editar</a>
    
@@ -53,5 +56,5 @@
     
     
     </table>
-    {{-- {!! $Categorias->links() !!} --}}
+    {{-- {!! $Promociones->links() !!} --}}
 @endsection
