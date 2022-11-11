@@ -1,1 +1,1 @@
-@include('templates/Templates/vistasf/templatest')
+@include('templatest')
