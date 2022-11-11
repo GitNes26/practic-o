@@ -118,18 +118,14 @@
                         <img src="{{asset('imagenesf/logo.png')}}" width="50" alt="Logo de la página web">
                     </a>
                     <ul class="navbar-nav d-flex justify-content-center align-items-center">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
-                        </li>
+                       
                         <li class="nav-item">
                             <a class="nav-link" href="#proyectos">Portafolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#testimonios">Referencias</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Más información</a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -193,7 +189,10 @@
 
 <body>
     <!-- Barra de navegacion -->
-    <nav class="navbar navbar-expand-md navbar-light">
+   
+</body>
+<div class="container">
+     <nav class="navbar navbar-expand-md navbar-light">
 
     </nav>
 
@@ -220,62 +219,18 @@
 
     <!-- Experiencia -->
     <section class="experiencia seccion-clara">
-        <div class="container text-center">
+        <div class="container text-center" >
             <div class="row">
-                <!-- Desarrollo Web -->
-                <div class="columna col-12 col-md-4">
-                    <i class="bi bi-laptop"></i>
-                    <p class="experiencia-titulo">Desarrollo Web</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
-                    <div class="badges-contenedor">
-                        <span class="badge text-bg-primary">HTML</span>
-                        <span class="badge text-bg-primary">CSS</span>
-                        <span class="badge text-bg-primary">JavaScript</span>
-                        <span class="badge text-bg-primary">React</span>
-                    </div>
-                </div>
+                <!-- Desarrollo Web --
                 <!-- Articulos -->
-                <div class="card" style="width: 18rem;">
-  <img src="..." class="card-img-top" alt="...">
-  <div class="card-body" style="width: 18rem;">
-    <h5 class="experiencia-titulo">Artículos</h5>
-    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
-    <div class="badges-contenedor">
-                        <span class="badge text-bg-primary">Escribir</span>
-                        <span class="badge text-bg-primary">Editar</span>
-                        <span class="badge text-bg-primary">Blogs</span>
-                    </div>
-  </div>
-</div>
-                
-                <!-- Estudiante -->
-                <div class="columna col-12 col-md-4">
-                    <i class="bi bi-laptop"></i>
-                    <p class="experiencia-titulo">Estudiante</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras laoreet, odio eget fringilla scelerisque, sem purus fringilla mauris, nec ultricies nisl nisl sit amet dolor. </p>
-                    <div class="badges-contenedor">
-                        <span class="badge text-bg-primary">freeCodeCamp</span>
-                        <span class="badge text-bg-primary">Desarrollo Web</span>
-                        <span class="badge text-bg-primary">Python</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <br>
-    <br>
-    <!-- Proyectos -->
-    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
-        <h2 class="seccion-titulo texto-negro">Mis proyectos</h2>
-        <h3 class="seccion-descripcion">Sube tus proyectos para que los clientes los vean.</h3>
         <!-- Galeria de Proyectos -->
+        <center>
         <div class="container text-center proyectos-contenedor">
-            <div class="row">
+            <div class="row justify-content-center">
                 <!-- Proyecto 1 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
+                <div class="card" style="width: 19rem;">
+                <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
                             <p>Proyecto 1</p>
                             <br>
@@ -292,9 +247,9 @@
                     </div>
                 </div>
                 <!-- Proyecto 2 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
                             <p>Proyecto 2</p>
                             <br>
@@ -311,9 +266,9 @@
                     </div>
                 </div>
                 <!-- Proyecto 3 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
                             <p>Proyecto 3</p>
                             <br>
@@ -330,9 +285,9 @@
                     </div>
                 </div>
                 <!-- Proyecto 4 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
                             <p>Proyecto 4</p>
                             <br>
@@ -349,9 +304,9 @@
                     </div>
                 </div>
                 <!-- Proyecto 5 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
                             <p>Proyecto 5</p>
                             <br>
@@ -368,9 +323,9 @@
                     </div>
                 </div>
                 <!-- Proyecto 6 -->
-                <div class="col-12 col-md-6 col-lg-4">
-                    <div class="proyecto">
-                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="300px" height="150px">
+                <div class="card" style="width: 19rem;">
+  <div class="card-body">
+                        <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
                             <p>Proyecto 6</p>
                             <br>
@@ -388,12 +343,11 @@
                 </div>
             </div>
         </div>
-        <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
-            <button type="button" class="btn btn-info">
-          Ver más proyectos
-          <i class="bi bi-arrow-right-circle-fill"></i>
-        </button>
-        </a>
+        </center>
+
+        <br>
+        
+
     </section>
     <br>
     <br>
@@ -465,6 +419,6 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js " integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3 " crossorigin="anonymous "></script>
-</body>
+</div>
 
 </html>
