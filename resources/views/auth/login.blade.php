@@ -8,8 +8,8 @@
 </head>
 <style>   
  body {
-  background: #007bff;
-  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background: #F1EDED;
+  background: linear-gradient(to right, #F1EDED, #33AEFF);
 }
 
 .btn-login {
@@ -27,11 +27,23 @@
   color: white !important;
   background-color: #3b5998;
 }
+.espacio {
+  height: 2rem;
+}
 </style>
 
 <body>
+<div class="espacio"></div>
+
     <div class="container">
         <div class="row">
+          <div style="" class="offset-5 col-4">
+          <img  width="250" src="{{ asset('logo.png') }}">
+          </div>
+        </div>
+        <div class="row">
+        
+    
           <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card border-0 shadow rounded-3 my-5">
               <div class="card-body p-4 p-sm-5">
