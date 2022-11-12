@@ -23,6 +23,9 @@
         <tr>
             <th>#</th>
             <th>Nombre/Tipo Bono</th>
+            <th>¿Como conseguirlo?</th>
+            <th>Recompensa a conseguirlo</th>
+
             <th width="280px">Accion</th>
         </tr>
 
@@ -32,6 +35,9 @@
             <td>{{ $Bono->nombre }}</td> --}}
             <th>1</th>
             <td>Bono a la mejor participacion</td>
+            <th>asiste todos los dias en la aplicacion durante 1 mes</th>
+            <th>descuento del 5% en tu comision del siguiente mes</th>
+
             <td>
                 <form>
                     {{-- <form action="{{ route('Bonos.destroy',$Bono->id) }}" method="POST"> --}}
@@ -50,6 +56,8 @@
             <td>{{ $Bono->nombre }}</td> --}}
             <th>2</th>
             <td>Bono al mejor desempeño</td>
+            <th>consigue una puntuacion excelente durante 1 mes</th>
+            <th>descuento de 10% en tu comision del siguente mes</th>
             <td>
                 <form>
                     {{-- <form action="{{ route('Bonos.destroy',$Bono->id) }}" method="POST"> --}}
@@ -67,7 +75,9 @@
             {{-- <th>{{$Bono->id}}</th>
             <td>{{ $Bono->nombre }}</td> --}}
             <th>3</th>
-            <td>Bono a la mejor calificacion</td>
+            <td>Bono a la mayor duracion cantidad de servicios</td>
+            <th>provee todos los dias durante un mes, un servicio al dia(minimo)</th>
+            <th>obten prioridad en tus servicios</th>
             <td>
                 <form>
                     {{-- <form action="{{ route('Bonos.destroy',$Bono->id) }}" method="POST"> --}}
@@ -85,7 +95,9 @@
             {{-- <th>{{$Bono->id}}</th>
             <td>{{ $Bono->nombre }}</td> --}}
             <th>4</th>
-            <td>Bono al mejor resultado</td>
+            <td>Bono de consuelo</td>
+            <th>ayuda al no conseguir trabajo durante 1 mes</th>
+            <th>prioridad en los resultados de busqueda duran te 1 semana</th>
             <td>
                 <form>
                     {{-- <form action="{{ route('Bonos.destroy',$Bono->id) }}" method="POST"> --}}
