@@ -140,27 +140,36 @@
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Practic-o</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="">
 
-            <h5>Puntos para próximo premio: 25%</h5>
-            <p><b>Por cada aumento de 20 solicitudes aceptadas
-                  en tu historial de servicios prestados, serás 
-                  premiado con un bono de más de 400 pesos!
-            </b></p>
-            <img src="{{asset('imagenesf/progress.png')}}" alt="">
+
+        <div class="row justify-content-center">
+                <div class="card" style="width: 20rem;">
+
+            <h4>Te faltan: ¡50 puntos para obtener un premio!</h4>
+            <p>¡Tus esfuerzos tienen una recompensa, aumenta tus calificaciones y mejora tus habilidades para conseguir <mark><b>beneficios exclusivos</b></mark>!</p>
+            
+            <center><div class="progress">
+  <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 50%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">50%</div>
+</div></center>
+            
             <br>
             <br>
+                </div>
+        </div>
+        <br>
+    
+        <div class="row justify-content-center">
+                <div class="card form-control" style="width: 20rem;" >
             <p> <h4>    Mi cuenta: </h4> 
             <p>Registra o actualiza la cuenta en la que recibirás el pago de tus servicios.</p>
 
             <input type="text" placeholder="Ingresa tu cuenta bancaria para depositar"></p>
             <input type="text" placeholder="Contraseña">
             <br>
-            <br>
             <button type="button" class="btn btn-info">Envíar</button>
-
+<br>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-
+            </div>
             </div>
         </div>
     </div>
@@ -205,7 +214,7 @@
         </div>
         <div class="hero-inferior">
             <center><img class="hero-inferior-imagen img-fluid" src="{{asset('imagenesf/webtools.png')}}" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid" src="imagenesf/atom.png" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid"
-                    src="{{asset('imagenesf/as.png')}}" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid" src="{{asset('imagenesf/ps.png')}}" alt="" width="80px" height="80px"></center>
+                    src="{{asset('imagenesf/as.png')}}" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid" src="{{asset('imagenesf/ps.png')}}" alt="" width="80px" height="80px"><img class="hero-inferior-imagen img-fluid" src="{{asset('imagenesf/addimg.png')}}" alt="" width="80px" height="80px"></center>
         </div>
     </section>
 
@@ -213,10 +222,11 @@
     <section id="sobre-mi" class="sobre-mi seccion-oscura">
         <div class="contenedor">
             <h2 class="seccion-titulo">Mi información</h2>
-            <p class="seccion-texto"> Amplios conocimientos en desarrollo web como: Uso de lenguajes HTML, CSS, PHP, JS. Uso de herramientas de diseño: Atom y Adobe Photoshop. Diseño y programación en Android Studio.</p>
+            <p class="seccion-texto">Descríbete un poco</p>
+            <input type="text" style="WIDTH: 1050px; HEIGHT: 90px" placeholder=" Aquí podrás ingresar lo que quieres que los clientes sepan de ti en cuanto a tus conocimientos.">
         </div>
     </section>
-
+<br><br><br>
     <!-- Experiencia -->
     <section class="experiencia seccion-clara">
         <div class="container text-center" >
@@ -224,6 +234,11 @@
                 <!-- Desarrollo Web --
                 <!-- Articulos -->
         <!-- Galeria de Proyectos -->
+        <br>
+        <br>
+        
+        <h1>Portafolio</h1>
+        <p>Los clientes confiarán más en tu trabajo si tienes evidencia de tus conocimientos</p>
         <center>
         <div class="container text-center proyectos-contenedor">
             <div class="row justify-content-center">
@@ -232,9 +247,10 @@
                 <div class="card-body">
                         <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
-                            <p>Proyecto 1</p>
+                            <p><b><input type="text" placeholder="Nombre del proyecto:">
                             <br>
-                            <b><p>Juego Número Secreto</p></b>
+                            <br>
+                            <input type="text" placeholder="Descripción del proyecto:" style="WIDTH: 200px; HEIGHT: 80px"></b></p>
                             <div class="iconos-contenedor">
                                 <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
@@ -251,9 +267,10 @@
   <div class="card-body">
                         <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
-                            <p>Proyecto 2</p>
+                        <p><b><input type="text" placeholder="Nombre del proyecto:">
                             <br>
-                            <b><p>Sistema de calificaciones</p></b>
+                            <br>
+                            <input type="text" placeholder="Descripción del proyecto:" style="WIDTH: 200px; HEIGHT: 80px"></b></p>
                             <div class="iconos-contenedor">
                                 <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
@@ -270,9 +287,10 @@
   <div class="card-body">
                         <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
-                            <p>Proyecto 3</p>
+                        <p><b><input type="text" placeholder="Nombre del proyecto:">
                             <br>
-                            <b><p>Reto 100 días de código</p></b>
+                            <br>
+                            <input type="text" placeholder="Descripción del proyecto:" style="WIDTH: 200px; HEIGHT: 80px"></b></p>
                             <div class="iconos-contenedor">
                                 <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
@@ -289,9 +307,10 @@
   <div class="card-body">
                         <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
-                            <p>Proyecto 4</p>
+                        <p><b><input type="text" placeholder="Nombre del proyecto:">
                             <br>
-                            <b><p>Revista Somos</p></b>
+                            <br>
+                            <input type="text" placeholder="Descripción del proyecto:" style="WIDTH: 200px; HEIGHT: 80px"></b></p>
                             <div class="iconos-contenedor">
                                 <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
@@ -308,9 +327,10 @@
   <div class="card-body">
                         <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
-                            <p>Proyecto 5</p>
+                        <p><b><input type="text" placeholder="Nombre del proyecto:">
                             <br>
-                            <b><p>Hi-Low Coffee Store</p></b>
+                            <br>
+                            <input type="text" placeholder="Descripción del proyecto:" style="WIDTH: 200px; HEIGHT: 80px"></b></p>
                             <div class="iconos-contenedor">
                                 <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
@@ -327,9 +347,10 @@
   <div class="card-body">
                         <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="200px" height="150px">
                         <div class="overlay">
-                            <p>Proyecto 6</p>
+                        <p><b><input type="text" placeholder="Nombre del proyecto:">
                             <br>
-                            <b><p>Pastelería Oliver's</p></b>
+                            <br>
+                            <input type="text" placeholder="Descripción del proyecto:" style="WIDTH: 200px; HEIGHT: 80px"></b></p>
                             <div class="iconos-contenedor">
                                 <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
                                     <i class="bi bi-github"></i>
@@ -344,9 +365,43 @@
             </div>
         </div>
         </center>
-
+<br>
+<br>
         <br>
+        <br>
+        <!-- Certificados -->
+        <section class="experiencia seccion-clara">
+            <br>
+            <br>
+            
+                <div class="card" style="width: 70rem;" >
         
+        <br>
+        <br>
+        <h1>Haz valer tus conocimientos</h1>
+        <br>
+    
+        <div class="mb-3">
+  <label for="formFileMultiple" class="form-label"><p>Isarely, la clave para la confianza es la honestidad, en este apartado puedes incluir
+            tus licencias y certificaciones de estudio para aquellos que están interesados es saber más de tu formación.
+        </p></label>
+  <input class="form-control" type="file" id="formFileMultiple" multiple>
+        </div>
+        <div class="card" style="width: 70rem;" >
+  <h3>¿No cuentas con certificados?</h3>
+  <p><b>Practic-O cuenta con el apoyo de algunos sitios web que certifican de manera gratuita los conocimientos
+     y habilidades de aquellos que están dispuestos a saber qué tan preparados están.
+  </b></p>
+  <div class="list-group">
+  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+  Programación en C Exámenes de certificación en línea gratuitos
+  </a> 
+  <a href="#" class="list-group-item list-group-item-action">Exámenes de certificación en línea gratuitos de gramática inglesa</a>
+  <a href="#" class="list-group-item list-group-item-action">Exámenes de certificación gratuitos en línea de conceptos básicos de informática</a>
+</div>
+</div>
+            </div>
+</section>
 
     </section>
     <br>
@@ -414,7 +469,7 @@
         <img class="footer-logo" src="{{asset('imagenesf/logo.png')}}" alt="Logo del portafolio" width="200px" height="150px">
         <div class="derechos-de-autor ">
             <center>
-                Practic-O. <br> LogOuts Developers(2022) &#169; </center>
+                Practic-O. <br> LogOuts Development Enterprise(2022) &#169; </center>
         </div>
     </footer>
 
