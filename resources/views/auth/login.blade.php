@@ -43,7 +43,7 @@
         <div class="row">
           <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
             <div class="card border-0 shadow rounded-3 my-5">
-              <div class="card-body p-4 p-sm-5">
+              <div class="card-body p-4 p-sm-5 text-center">
                 <h5 class="card-title text-center mb-5 fw-light fs-5">Inicio de sesion</h5>
                 
                 <form  action="{{ route('login') }}"  method="POST" name="sample">
@@ -56,7 +56,7 @@
                     <input type="password" required class="form-control" id="floatingPassword" name="password" placeholder="Contraseña">
                     <label for="floatingPassword">Contraseña</label>
                   </div>
-    
+                  <a href="/register" class="text-center">¿Aun no tienes cuenta?</a>
                   <div class="d-grid">
                     <button class="btn btn-primary btn-login text-uppercase fw-bold" type="submit">Iniciar Sesion</button>
                   </div>
