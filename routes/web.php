@@ -18,8 +18,11 @@ Route::post('/login', [UsuariosController::class, 'login'])->name('login');
 Route::get('/', function () {
     return view('auth.login');
 });
-Route::get('/client', function () {
+Route::get('/card', function () {
     return view('client.card');
+});
+Route::get('/client', function () {
+    return view('client.client');
 });
 Route::get('/login', function () {
 return view('auth.login');
