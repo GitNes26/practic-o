@@ -86,6 +86,43 @@
          transform: scale(1.05);
          cursor: pointer;
       }
+
+
+      #form {
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.clasificacion {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
       </style>
       
 
@@ -127,7 +164,7 @@
       
               <div class="row border-top mt-2 hide" id="div_filters">
                 <h2>Filtros</h2>
-                <div class="col col-sm-2 col-md-3 border-right">
+                <div class="col col-sm-2 col-md-3 border">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
@@ -142,7 +179,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col col-sm-2 col-md-3 border-right">
+                <div class="col col-sm-2 col-md-3 border">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
@@ -177,12 +214,12 @@
                           </div>
                           <div class="form-check form-check-inline">
                             <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" disabled>
-                            <label class="form-check-label" for="inlineCheckbox3">Química Avanzada (disabled)</label>
+                            <label class="form-check-label" for="inlineCheckbox3">Química Avanzada (no disponible)</label>
                           </div>
                       </div>
                     </div>
                 </div>
-                <div class="col col-sm-2 col-md-3 border-right">
+                <div class="col col-sm-2 col-md-3 border">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
@@ -206,7 +243,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col col-sm-2 col-md-3 border-right">
+                <div class="col col-sm-2 col-md-3 border">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                       <label class="form-check-label" for="defaultCheck1">
@@ -215,18 +252,20 @@
                     </div>
                     <div class="row">
                       <div class="col">
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                            <label class="form-check-label" for="inlineCheckbox1">1-6 meses</label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">+6 meses</label>
-                          </div>
-                          <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                            <label class="form-check-label" for="inlineCheckbox2">+1 año</label>
-                          </div>
+                        <form>
+                          <p class="clasificacion">
+                            <input id="radio1" type="radio" name="estrellas" value="5"><!--
+                            --><label for="radio1">★</label><!--
+                            --><input id="radio2" type="radio" name="estrellas" value="4"><!--
+                            --><label for="radio2">★</label><!--
+                            --><input id="radio3" type="radio" name="estrellas" value="3"><!--
+                            --><label for="radio3">★</label><!--
+                            --><input id="radio4" type="radio" name="estrellas" value="2"><!--
+                            --><label for="radio4">★</label><!--
+                            --><input id="radio5" type="radio" name="estrellas" value="1"><!--
+                            --><label for="radio5">★</label>
+                          </p>
+                        </form>
                       </div>
                     </div>
                 </div>
@@ -319,9 +358,10 @@
       </div>
       <div class="col-3">
         <div class="card h-100">
-          <div class="card-header">RECOMENDADOS</div>
+          <div class="card-header bg-dark text-light text-center"><h2>RECOMENDADOS</h2></div>
           <div class="card-body">
             <div class="row">
+
               <div class="card mb-3" style="max-width: 540px;">
                 <div class="row g-0">
                   <div class="col-md-4">
@@ -330,12 +370,52 @@
                   <div class="col-md-8">
                     <div class="card-body">
                       <h5 class="card-title">Melani Miami</h5>
-                      {{-- <p>Calificación: <span class="rating" data-rate-value=6></span></p> --}}
-                      <div div  class = "rating"  data-rate-value=6 ></div>
+                      <i>fotografia</i>
+                      <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
+                        <button type="button" class="btn btn-outline-success">Contratar</button>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="{{asset('images/persona3.jpg')}}" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Dana Dominguez</h5>
+                      <i>Tutorias</i>
+                      <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
+                        <button type="button" class="btn btn-outline-success">Contratar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="{{asset('images/persona5.jpg')}}" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Javier Juarez</h5>
+                      <i>Pintar fachada</i>
+                      <div class="btn-group" role="group" aria-label="Basic outlined example">
+                        <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
+                        <button type="button" class="btn btn-outline-success">Contratar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
@@ -374,15 +454,70 @@
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at velit sapien. Duis et orci id felis gravida porttitor vitae sit amet eros. Curabitur id elit rutrum, rhoncus metus nec, pellentesque magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Quisque ultricies purus nec dui efficitur, eu fermentum lacus rhoncus. Proin sodales pharetra purus, nec iaculis lectus sagittis sit amet. Quisque ullamcorper sodales est, mattis lacinia tellus faucibus a. Phasellus arcu enim, aliquam sed feugiat sit amet, dignissim at velit. Quisque elementum orci massa, eget accumsan massa fringilla dignissim. Proin ante nisl, laoreet nec vulputate non, ultricies id tellus. Mauris dapibus dolor sed iaculis blandit. Integer quis dapibus mauris, vel porta magna.
-          
-                  Duis vestibulum euismod imperdiet. Suspendisse potenti. Pellentesque pretium massa vel justo posuere, a interdum elit placerat. Donec sit amet turpis ornare, molestie urna sit amet, cursus quam. Aenean hendrerit, ipsum euismod pharetra gravida, felis eros ullamcorper metus, suscipit tristique augue lacus nec purus. Mauris finibus ex at arcu semper congue. Vivamus leo magna, viverra dignissim quam vitae, vestibulum aliquam nulla.
-          
-                  Etiam egestas ipsum ac fermentum faucibus. Donec aliquet, diam vel vulputate hendrerit, lacus metus laoreet ligula, nec lobortis nibh mi in tellus. In sed nunc maximus, semper justo nec, semper nisl. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec eget purus neque. Aenean imperdiet pretium diam et consequat. Ut vehicula justo eu nunc placerat, eget imperdiet ligula vestibulum. Vestibulum lacinia ultrices urna quis egestas. Curabitur maximus tortor nec pellentesque scelerisque. Pellentesque mattis scelerisque tincidunt. Suspendisse potenti. Phasellus nunc sapien, interdum et fermentum non, gravida quis urna. Fusce bibendum mauris sed euismod blandit. Aenean nunc diam, pellentesque sed cursus eget, consequat vel nibh. Morbi fermentum elit quis sapien efficitur, ac suscipit diam pulvinar. Proin et erat et mi auctor accumsan a vitae dui.
-          
-                  Maecenas efficitur lorem quis ipsum rhoncus placerat. Sed vestibulum est nisl, nec varius massa porta at. Nam velit diam, aliquam nec magna vulputate, placerat efficitur elit. Suspendisse faucibus lectus eu fringilla tincidunt. Proin sagittis auctor nibh, id aliquet odio accumsan vel. Pellentesque efficitur tellus ac nulla bibendum malesuada. Cras sed pulvinar dolor.
-          
-                  Nullam lobortis nisl massa, ac blandit eros ultrices sed. Sed facilisis pharetra nibh, sed vulputate odio maximus at. Maecenas fermentum placerat varius. Ut nulla mi, sagittis sit amet diam vitae, dignissim tincidunt odio. Etiam sagittis mi quis eros fermentum, vitae convallis mi tristique. Praesent pharetra tortor ac velit suscipit, egestas sollicitudin felis euismod. Vestibulum cursus magna quam, ut volutpat erat blandit eu. Cras aliquet euismod felis, et imperdiet metus facilisis vitae. Praesent vel dui augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque et semper odio. Sed blandit varius dui eu cursus. Nunc facilisis nulla mi, at ultrices justo egestas eu. Donec sollicitudin ut sem a mattis. Sed consequat scelerisque scelerisque.
+
+                  <div class="container text-center proyectos-contenedor">
+                    <div class="row justify-content-center">
+                        <!-- Proyecto 1 -->
+                        <div class="card" style="width: 15rem;">
+                        <div class="card-body">
+                                <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="100px" height="75px">
+                                <div class="overlay">
+                                    <p>Proyecto 1</p>
+                                    <br>
+                                    <b><p>Juego Número Secreto</p></b>
+                                    <div class="iconos-contenedor">
+                                        <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-laptop"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Proyecto 2 -->
+                        <div class="card" style="width: 15rem;">
+          <div class="card-body">
+                                <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="100px" height="75px">
+                                <div class="overlay">
+                                    <p>Proyecto 2</p>
+                                    <br>
+                                    <b><p>Sistema de calificaciones</p></b>
+                                    <div class="iconos-contenedor">
+                                        <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-laptop"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Proyecto 3 -->
+                        <div class="card" style="width: 15rem;">
+          <div class="card-body">
+                                <img src="{{asset('imagenesf/pc.png')}}" alt="Proyecto 1" width="100px" height="75px">
+                                <div class="overlay">
+                                    <p>Proyecto 3</p>
+                                    <br>
+                                    <b><p>Reto 100 días de código</p></b>
+                                    <div class="iconos-contenedor">
+                                        <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-github"></i>
+                                        </a>
+                                        <a href="https://matias.ma/nsfw/" target="_blank" rel="noopener noreferrer">
+                                            <i class="bi bi-laptop"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  
+                  
                 </div>
               </div>
             </div>
@@ -400,8 +535,8 @@
             </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-success">Contratar</button>
         </div>
       </div>
     </div>
