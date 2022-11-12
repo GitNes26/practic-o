@@ -10,6 +10,7 @@
    @extends('templates/scripts')
 
    <link href="{{asset('css/modal.css')}}" rel="stylesheet" />
+   <link href="{{asset('chat.css')}}" rel="stylesheet" />
 
 
    <style>
@@ -243,8 +244,8 @@
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <div class="btn-group" role="group" aria-label="Basic outlined example">
                           <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
-                          <button type="button" class="btn btn-outline-success">Contratar</button>
-                      </div>
+                          <a type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">Contratar</a>
+               </div>
                     </div>
                   </div>
               </div>
@@ -256,7 +257,7 @@
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <div class="btn-group" role="group" aria-label="Basic outlined example">
                           <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
-                          <button type="button" class="btn btn-outline-success">Contratar</button>
+                          <a type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">Contratar</a>
                       </div>
                     </div>
                   </div>
@@ -269,7 +270,7 @@
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <div class="btn-group" role="group" aria-label="Basic outlined example">
                           <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
-                          <button type="button" class="btn btn-outline-success">Contratar</button>
+                          <a type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">Contratar</a>
                       </div>
                     </div>
                   </div>
@@ -282,7 +283,7 @@
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <div class="btn-group" role="group" aria-label="Basic outlined example">
                           <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
-                          <button type="button" class="btn btn-outline-success">Contratar</button>
+                          <a type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">Contratar</a>
                       </div>
                     </div>
                   </div>
@@ -295,7 +296,7 @@
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <div class="btn-group" role="group" aria-label="Basic outlined example">
                           <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
-                          <button type="button" class="btn btn-outline-success">Contratar</button>
+                          <a type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">Contratar</a>
                       </div>
                     </div>
                   </div>
@@ -308,7 +309,7 @@
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <div class="btn-group" role="group" aria-label="Basic outlined example">
                           <a type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más</a>
-                          <button type="button" class="btn btn-outline-success">Contratar</button>
+                          <a type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal2">Contratar</a>
                       </div>
                     </div>
                   </div>
@@ -347,7 +348,6 @@
     <div class="modal-dialog modal-lg modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -406,7 +406,140 @@
       </div>
     </div>
   </div>
+  </div>
+  <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    
+        <div class="modal-body">
+         
+<!--
 
+Follow me on
+Dribbble: https://dribbble.com/supahfunk
+Twitter: https://twitter.com/supahfunk
+Codepen: https://codepen.io/supah/
+
+It's just a concept, a fake chat to design a new daily UI for direct messaging.
+Hope you like it :)
+
+-->
+
+
+<br>
+<div class="chatbox-holder">
+  <div class="chatbox">
+    <div class="chatbox-top">
+      <div class="chatbox-avatar">
+        <a target="_blank" href="https://www.facebook.com/mfreak"><img src="https://gravatar.com/avatar/2449e413ade8b0c72d0a15d153febdeb?s=512&d=https://codepen.io/assets/avatars/user-avatar-512x512-6e240cf350d2f1cc07c2bed234c3a3bb5f1b237023c204c782622e80d6b212ba.png" /></a> 
+      </div>
+      <div class="chat-partner-name">
+        <span class="status online"></span>
+        <a target="_blank" href="https://www.facebook.com/mfreak">Mamun Khandaker</a>
+      </div>
+      <div class="chatbox-icons">
+        <a href="javascript:void(0);"><i class="fa fa-minus"></i></a>
+        <a href="javascript:void(0);"><i class="fa fa-close"></i></a>       
+      </div>      
+    </div>
+    
+    <div class="chat-messages">
+       <div class="message-box-holder">
+        <div class="message-box">
+          Hello
+        </div>
+      </div>
+      
+      <div class="message-box-holder">
+        <div class="message-sender">
+           Mamun Khandaker
+         </div>
+        <div class="message-box message-partner">
+          Hi.
+        </div>
+      </div>
+      
+      <div class="message-box-holder">
+        <div class="message-box">
+          How are you doing?
+        </div>
+      </div>
+      
+      <div class="message-box-holder">
+        <div class="message-sender">
+           Mamun Khandaker
+         </div>
+        <div class="message-box message-partner">
+          I'm doing fine. How about you?
+        </div>
+      </div>
+      
+      <div class="message-box-holder">
+        <div class="message-box">
+          I am fine.
+        </div>
+      </div>
+      
+      <div class="message-box-holder">
+        <div class="message-box">
+          Do you know why I knocked you today?
+        </div>
+      </div>
+      
+      <div class="message-box-holder">
+        <div class="message-box">
+          There's something important I would like to share with you. Do you have some time?
+        </div>
+      </div>
+      
+      <div class="message-box-holder">
+        <div class="message-sender">
+           Mamun Khandaker
+         </div>
+        <div class="message-box message-partner">
+          Yeah sure. Let's meet in the Einstein cafe this evening and discuss the matter.
+        </div>
+      </div>
+      
+      <div class="message-box-holder">
+        <div class="message-sender">
+           Mamun Khandaker
+         </div>
+        <div class="message-box message-partner">
+          I thought of coming to your place and discuss about it but I had to finish my projects and I didn't have enough time to go out of the house.
+        </div>
+      </div>      
+    </div>
+    
+    <div class="chat-input-holder">
+      <textarea class="chat-input"></textarea>
+      <input type="submit" value="Send" class="message-send" />
+    </div>
+    <div class="attachment-panel">
+      <a href="#" class="fa fa-thumbs-up"></a>
+      <a href="#" class="fa fa-camera"></a>
+      <a href="#" class="fa fa-video-camera"></a>
+      <a href="#" class="fa fa-image"></a>
+      <a href="#" class="fa fa-paperclip"></a>
+      <a href="#" class="fa fa-link"></a>
+      <a href="#" class="fa fa-trash-o"></a>
+      <a href="#" class="fa fa-search"></a>
+    </div>
+  </div>
+  
+
+  
+  </div>
+</div>
+</div>
+<div class="bg"></div>
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+  
 
 
   <script>
